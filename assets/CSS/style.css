@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*----------------------------------------------------Header-*/
+
+.header-container {
+    min-height: 56px;
+    width: 100%;
+    background-color: #403b3b;
+}
+
+.logo {
+    background: url("../Media/image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120px;
+    transition: all .5 ease-in-out;
+    margin: 0;
+    padding-left: 0;
+}
+
+.book-now-btn {
+    height: 100%;
+    font-size: 46px;
+}
+
+/*----------------------------------------------------Nav----*/
+
+.nav-item {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
