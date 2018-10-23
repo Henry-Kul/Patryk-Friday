@@ -9,28 +9,109 @@
 }
 
 .logo {
-    background: url("../Media/image.png");
+    background: url("../Media/image-fixed.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 120px;
+    min-height: 122px;
     transition: all .5 ease-in-out;
     margin: 0;
     padding-left: 0;
 }
 
-.book-now-btn {
+.btn-danger {
+    min-height: 122px;
     height: 100%;
-    font-size: 46px;
+    font-size: 36px;
+    background-color: #a00505;
+    border-color: #3c0808;
+    color: #fbcece;
+    text-transform: uppercase;
+    font-family: Exo;
+}
+
+.btn-danger:hover {
+    background-color: #5f0f0f;
+    color: #fbcece;
+    border-color: #3c0808;
 }
 
 /*----------------------------------------------------Nav----*/
 
-.nav-item {
+.menuitem {
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.nav-link {
+    color: #fbcece;
+}
+
+.nav-link:hover {
+    color: #a00505;
+}
+
+/*----------------------------------------------------Overlay----*/
+
+.deco-section {
+    height: 75vh;
+    background: url(../Media/home_page.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*----------------------------------------------------Footer----*/
+
+.footer-container {
+    background-color: #403b3b;
+    color: #fff;
+    min-height: 120px;
+    margin: 0;
+    padding-left: 10px;
+
 }

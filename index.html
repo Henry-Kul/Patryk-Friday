@@ -3,7 +3,7 @@
 <html lang- "en">
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
     <meta charset="utf-8">
@@ -12,29 +12,31 @@
 
 <body>
     <header class="container-fluid header-container">
+
         <div class="row">
-            <div class="col-md-4 logo">
-                <a href="#"></a>
+            <a href="index.html">
+                <div class="col-md-4 logo"></div>
+            </a>
+            <div class="col-md-4 col-md-offset-4 book-now">
+                <button type="button" class="btn btn-danger btn-lg btn-block">Book An Appointment</button>
             </div>
-            <div class="col-md-4 offset-md-4 book-now">
-                <button type="button" class="btn btn-outline-danger btn-block btn-lg book-now-btn">Book Now!</button>
-            </div>
-            <div class="row container-fluid nav-container">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item col-xs-">
-                        <a class="nav-link" href="#">Home</a>
+            <div class="row col-xs-12 col-md-12"></div>
+            <div class="row nav-container">
+                <ul id="nav" class="list-inline clearfix">
+                    <li class="col-xs-6 col-sm-3 menuitem">
+                        <a class="nav-link" href="index.html"><span>Home</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Recent Work</a>
+                    <li class="col-xs-6 col-sm-2 menuitem">
+                        <a class="nav-link" href="#"><span>Recent Work</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                    <li class="col-xs-6 col-sm-2 menuitem">
+                        <a class="nav-link" href="#"><span>About</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                    <li class="col-xs-6 col-sm-2 menuitem">
+                        <a class="nav-link" href="#"><span>Gallery</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="col-xs-6 col-sm-3 menuitem">
+                        <a class="nav-link" href="#"><span>Contact</span></a>
                     </li>
                 </ul>
             </div>
@@ -42,11 +44,33 @@
 
     </header>
 
-    <section class="container-fluid">
+    <section class="container-fluid deco-section">
+        <div class="opaque-overlay">&nbsp;</div>
 
     </section>
 
-    <footer>
+    <footer class="container-fluid footer-container">
+        <div id="footer_section" class="row">
+            <div class="col-sm-3">
+                <h4 class="uppercase">Contact</h4>
+                <p class="inline-block">fridaycox@gmail.com</p>
+                <p class="inline-block">+1 555 645 3344</p>
+            </div>
+            <div class="col-sm-3">
+                <h4 class="uppercase">Opening Hours</h4>
+                <p class="inline-block">Monday: Closed</p>
+                <p class="inline-block">Tue-Sat: 0900-1900</p>
+                <p class="inline-block">Sunday: Closed</p>
+            </div>
+            <div class="col-sm-3">
+                <h4 class="uppercase">Book an appointment</h4>
+                <p class="inline-block">lorem ipsum</p>
+            </div>
+            <div class="col-sm-3">
+                <h4 class="uppercase">Social</h4>
+                <p class="inline-block">lorem ipsum</p>
+            </div>
+        </div>
 
     </footer>
 </body>
