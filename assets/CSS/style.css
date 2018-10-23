@@ -1,11 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*--------------------------------------------General Styles-*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.full-block {
+    display: block;
+}
+
 /*----------------------------------------------------Header-*/
 
 .header-container {
     min-height: 56px;
     width: 100%;
     background-color: #403b3b;
+}
+
+.heading {
+    font-size: 36px;
+    color: #fff;
 }
 
 .logo {
@@ -19,7 +38,7 @@
     padding-left: 0;
 }
 
-.btn-danger {
+.btn-header {
     min-height: 122px;
     height: 100%;
     font-size: 36px;
@@ -30,7 +49,7 @@
     font-family: Exo;
 }
 
-.btn-danger:hover {
+.btn-header:hover {
     background-color: #5f0f0f;
     color: #fbcece;
     border-color: #3c0808;
@@ -57,7 +76,8 @@
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     text-align: center;
     text-transform: uppercase;
     font-size: 19px;
@@ -114,4 +134,22 @@
     margin: 0;
     padding-left: 10px;
 
+}
+
+.btn-footer {
+    background-color: #a00505;
+    border-color: #3c0808;
+    color: #fbcece;
+    text-transform: uppercase;
+    font-family: Exo;
+}
+
+.btn-footer:hover {
+    background-color: #5f0f0f;
+    color: #fbcece;
+    border-color: #3c0808;
+}
+
+.social-links li a i {
+    font-size: 16px;
 }

@@ -11,16 +11,21 @@
 </head>
 
 <body>
-    <header class="container-fluid header-container">
 
+    <header class="container-fluid header-container">
         <div class="row">
             <a href="index.html">
                 <div class="col-md-4 logo"></div>
             </a>
-            <div class="col-md-4 col-md-offset-4 book-now">
-                <button type="button" class="btn btn-danger btn-lg btn-block">Book An Appointment</button>
+            <div class="col-md-4 heading">
+                <h1 clas="name"></h1>
+            </div>
+            <div class="col-md-4 book-now">
+                <button type="button" class="btn btn-danger btn-lg btn-block btn-header">Book An Appointment</button>
             </div>
             <div class="row col-xs-12 col-md-12"></div>
+            
+            <!-- Nav -->
             <div class="row nav-container">
                 <ul id="nav" class="list-inline clearfix">
                     <li class="col-xs-6 col-sm-3 menuitem">
@@ -40,35 +45,48 @@
                     </li>
                 </ul>
             </div>
+            <!-- /Nav -->
+            
         </div>
-
     </header>
 
+    <!-- Overlay -->
     <section class="container-fluid deco-section">
         <div class="opaque-overlay">&nbsp;</div>
+    </section>
+    <!-- /Overlay -->
+
+    <!-- Featured Section -->
+    <section class="container-fluid featured">
 
     </section>
+    <!-- /Featured section -->
 
     <footer class="container-fluid footer-container">
         <div id="footer_section" class="row">
-            <div class="col-sm-3">
+            <div class="col-xs-3 col-sm-3">
                 <h4 class="uppercase">Contact</h4>
-                <p class="inline-block">fridaycox@gmail.com</p>
-                <p class="inline-block">+1 555 645 3344</p>
+                <p class="full-block">fridaycox@gmail.com</p>
+                <p class="full-block">+1 555 645 3344</p>
             </div>
-            <div class="col-sm-3">
+            <div class="col-xs-3 col-sm-3">
                 <h4 class="uppercase">Opening Hours</h4>
-                <p class="inline-block">Monday: Closed</p>
-                <p class="inline-block">Tue-Sat: 0900-1900</p>
-                <p class="inline-block">Sunday: Closed</p>
+                <p class="full-block">Monday: Closed</p>
+                <p class="full-block">Tue-Sat: 0900-1900</p>
+                <p class="full-block">Sunday: Closed</p>
             </div>
-            <div class="col-sm-3">
-                <h4 class="uppercase">Book an appointment</h4>
-                <p class="inline-block">lorem ipsum</p>
+            <div class="col-xs-3 col-sm-3">
+                <h4 class="uppercase">Still not sure?</h4>
+                <p class="full-block">Book a consultation to discuss ideas</p>
+                <button type="button" class="btn btn-danger btn-sm btn-footer">Book Now</button>
             </div>
-            <div class="col-sm-3">
-                <h4 class="uppercase">Social</h4>
-                <p class="inline-block">lorem ipsum</p>
+            <div class="col-xs-3 col-sm-3">
+                <h4 class="uppercase">My Social</h4>
+                <ul class="list-inline social-links">
+                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100006040274237&lst=100000677442777%3A100006040274237%3A1539944537"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/patryk.friday/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.pinterest.ie/fridaycox/"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
             </div>
         </div>
 
