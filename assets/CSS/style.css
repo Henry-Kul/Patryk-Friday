@@ -14,6 +14,10 @@
     display: block;
 }
 
+.centered {
+    text-align: center;
+}
+
 /*----------------------------------------------------Header-*/
 
 .header-container {
@@ -104,7 +108,7 @@
 /*----------------------------------------------------Overlay----*/
 
 .deco-section {
-    height: 75vh;
+    height: 70vh;
     background: url(../Media/home_page.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -125,6 +129,38 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/*--------------------------------------------------Featured----*/
+
+.featured {
+    background-color: #403b3b;
+    color: #fff;
+}
+
+.display-tat-1 {}
+
+.display-tat-2 {}
+
+.display-tat-3 {}
+
+.display-tat-4 {}
+
+h2 {
+    overflow: hidden;
+    text-align: center;
+}
+
+h2:before,
+h2:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+}
+
+
 /*----------------------------------------------------Footer----*/
 
 .footer-container {
@@ -133,6 +169,7 @@
     min-height: 120px;
     margin: 0;
     padding-left: 10px;
+    padding-top: 15px;
 
 }
 
@@ -151,5 +188,5 @@
 }
 
 .social-links li a i {
-    font-size: 16px;
+    font-size: 30px;
 }
