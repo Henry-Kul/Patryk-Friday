@@ -220,7 +220,7 @@ h2:after {
 .gallery-tattoo {
     max-height: 600px;
     max-width: 600px;
-    justify-content: center;
-    display: flex;
+    display: inline-block;
+    margin: 15px;
 }
 
