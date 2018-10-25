@@ -207,5 +207,20 @@ h2:after {
     background-color: #403b3b;
     color: #fff;
     padding-top: 15px;
-    
+
 }
+
+/*--------------------------------------------------Gallery-----*/
+
+.gallery-section {
+    background-color: #403b3b;
+    color: #fff;
+}
+
+.gallery-tattoo {
+    max-height: 600px;
+    max-width: 600px;
+    justify-content: center;
+    display: flex;
+}
+
