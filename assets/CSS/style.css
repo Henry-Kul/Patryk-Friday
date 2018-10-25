@@ -23,7 +23,7 @@
 .header-container {
     min-height: 56px;
     width: 100%;
-    background-color: #403b3b;
+    background-color: #292424;
 }
 
 .heading {
@@ -32,7 +32,7 @@
 }
 
 .logo {
-    background: url("../Media/image-fixed.png");
+    background: url("../Media/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,7 +164,7 @@ h2:after {
 /*----------------------------------------------------Footer----*/
 
 .footer-container {
-    background-color: #403b3b;
+    background-color: #292424;
     color: #fff;
     min-height: 120px;
     margin: 0;
