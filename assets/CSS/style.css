@@ -138,17 +138,33 @@
 /*--------------------------------------------------Featured----*/
 
 .featured {
-    background-color: #403b3b;
+    background-color: #a00505;
     color: #fff;
 }
 
-.display-tat-1 {}
+.display-tat-1 {
+    height: 800px;
+    width: 800px;
+    display: block;
+}
 
-.display-tat-2 {}
+.display-tat-2 {
+    height: 800px;
+    width: 800px;
+    display: block;
+}
 
-.display-tat-3 {}
+.display-tat-3 {
+    height: 800px;
+    width: 800px;
+    display: block;
+}
 
-.display-tat-4 {}
+.display-tat-4 {
+    height: 800px;
+    width: 800px;
+    display: block;
+}
 
 h2 {
     overflow: hidden;
@@ -220,13 +236,13 @@ h2:after {
 /*--------------------------------------------------Gallery-----*/
 
 .gallery-section {
-    background-color: #403b3b;
+    background-color: #a00505;
     color: #fff;
 }
 
 .gallery-tattoo {
-    max-height: 600px;
-    max-width: 600px;
+    height: 400px;
+    width: 400px;
     display: inline-block;
     margin: 15px;
 }
