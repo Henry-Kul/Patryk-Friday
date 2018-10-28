@@ -18,6 +18,12 @@
     text-align: center;
 }
 
+.page-content {
+    padding: 30px 30px 50px;
+    background-color: #292424;
+    color: #fff;
+}
+
 /*----------------------------------------------------Header-*/
 
 .header-container {
@@ -196,15 +202,16 @@ h2:after {
 
 .profile-photo {
     float: left;
-    background-color: #403b3b;
+    background-color: #a00505;
     margin-right: 10px;
+    border-color: none;
 }
 
 .about-me {
     font-family: Roboto;
     letter-spacing: 1.5px;
     font-weight: 600;
-    background-color: #403b3b;
+    background-color: #a00505;
     color: #fff;
     padding-top: 15px;
 
@@ -220,7 +227,44 @@ h2:after {
 .gallery-tattoo {
     max-height: 600px;
     max-width: 600px;
+    min-height: 600px;
+    min-width: 600px;
     display: inline-block;
     margin: 15px;
+}
+
+/*--------------------------------------------------Contact-----*/
+
+h1 {
+    overflow: hidden;
+    text-align: center;
+}
+
+h1:before,
+h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+}
+
+.contact-info-block {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.contact-form {
+    margin: 15px;
+    display: block;
+    color: #000;
+}
+
+.contact-page {
+    background-color: #fff;
+    color: #000;
 }
 
