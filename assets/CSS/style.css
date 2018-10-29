@@ -240,16 +240,22 @@ h2:after {
     padding-top: 15px;
 }
 
-.about-me p {
-    text-indent: 30px;
-}
+.about-me p {}
 
 .specialty-tat {
     height: 200px;
     width: 200px;
     float: right;
     margin: auto;
-    
+
+}
+
+.about-links {
+    text-decoration: none;
+}
+
+.about-links:hover {
+    text-decoration: none;
 }
 
 /*--------------------------------------------------Gallery-----*/
@@ -295,6 +301,7 @@ h1:after {
     margin: 15px;
     display: block;
     color: #000;
+    font-family: Exo;
 }
 
 .contact-page {
@@ -308,5 +315,5 @@ h1:after {
     height: 200px;
     width: 300px;
     float: right;
-    display: inline-block;
+    position: relative;
 }
