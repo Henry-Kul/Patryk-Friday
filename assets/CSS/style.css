@@ -241,7 +241,7 @@ h2:after {
 }
 
 .about-me p {
-    text-indent: 50px;
+    text-indent: 30px;
 }
 
 .specialty-tat {
@@ -304,3 +304,9 @@ h1:after {
     margin: auto;
 }
 
+.contact-logo {
+    height: 200px;
+    width: 300px;
+    float: right;
+    display: inline-block;
+}
