@@ -143,27 +143,35 @@
 }
 
 .display-tat-1 {
-    height: 800px;
-    width: 800px;
-    display: block;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
 .display-tat-2 {
-    height: 800px;
-    width: 800px;
-    display: block;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
 .display-tat-3 {
-    height: 800px;
-    width: 800px;
-    display: block;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
 .display-tat-4 {
-    height: 800px;
-    width: 800px;
-    display: block;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
 h2 {
@@ -230,7 +238,18 @@ h2:after {
     background-color: #a00505;
     color: #fff;
     padding-top: 15px;
+}
 
+.about-me p {
+    text-indent: 50px;
+}
+
+.specialty-tat {
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: auto;
+    
 }
 
 /*--------------------------------------------------Gallery-----*/
@@ -245,6 +264,7 @@ h2:after {
     width: 400px;
     display: inline-block;
     margin: 15px;
+    padding-left: 15px;
 }
 
 /*--------------------------------------------------Contact-----*/
@@ -278,7 +298,9 @@ h1:after {
 }
 
 .contact-page {
-    background-color: #fff;
+    background-color: #d0cfcf;
     color: #000;
+    width: 75%;
+    margin: auto;
 }
 
