@@ -43,7 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 122px;
-    transition: all .5 ease-in-out;
+    transition: all 0.5 ease-in-out;
     margin: 0;
     padding-left: 0;
 }
@@ -228,7 +228,6 @@ h2:after {
     float: left;
     background-color: #a00505;
     margin-right: 10px;
-    border-color: none;
 }
 
 .about-me {
